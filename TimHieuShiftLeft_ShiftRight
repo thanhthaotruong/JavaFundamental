@@ -1,0 +1,11 @@
+Chào cô,
+Em đã đọc được tài liệu liên quan đến Bit shift như sau :
+
+Dịch chuyển số học bên trái n lần tương đương nhân với 2n (nếu giá trị đó không gây tràn bộ nhớ), trong khi đó thì phép dịch chuyển số học sang phải n lần của một giá trị bù 2 thì tương đương với việc chia cho 2n và làm tròn về phía âm vô cùng. Nếu số nhị phân được xem là bù 1, thì phép dịch chuyển sang phải tương tự sẽ cho kết quả bằng với việc chia số đó cho 2n và làm tròn về phía 0.
+
+Giá trị toán hạng là int thì chỉ có 5 bit thấp nhất được sử dụng như là khoảng cách dịch chuyển.Khoảng cách dịch chuyển thực ra luôn nằm trong khoảng 0 tới 31 (một cách tổng quát)
+Giá trị toán hạng là long thì chỉ có 6 bit thấp nhẩ được sử dụng như là khoảng cách dịch chuyển.Khoảng cách dịch chuyển thực ra luôn nằm trong khoảng từ 0 đến 63
+
+So sánh với trong tài liệu thì cho kết quả như nhau . Kiểu int :dịch tối đa 5 bit cuối. Kiểu long : Dịch tối đa 6 bit cuối 
+
+Em đọc được trên wiki : https://vi.wikipedia.org/wiki/Ph%C3%A9p_to%C3%A1n_thao_t%C3%A1c_bit
